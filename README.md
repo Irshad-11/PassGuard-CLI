@@ -43,10 +43,6 @@ PassGuard-CLI is built with a modern, modular Python stack to ensure performance
 
 PassGuard-CLI is distributed as a **single standalone executable**. You do not need to install Python or any dependencies to run it.
 
-1. Go to the **[Releases](https://github.com/Irshad-11/PassGuard-CLI/releases)** page.
-2. Download the `passguard.exe` for your operating system.
-3. (Optional) Add the folder containing `passguard.exe` to your System PATH to run it from any terminal.
-
 ### For Developers (Run from Source)
 
 ```bash
@@ -61,7 +57,7 @@ python -m passguard.app
 ## For General Users (Run exe - Windows only)
 
 ### Step 1: Download & Setup
-- Download the latest **Release** containing the `pass.exe` file.
+- Download the latest **[Releases](https://github.com/Irshad-11/PassGuard-CLI/releases)** containing the `pass.exe` file.
 - Navigate to the folder where it is downloaded.
 > [!IMPORTANT]
 > **Vault Security**: For better security, move `pass.exe` to a personal or separate folder. This folder is your sensitive vault, so avoid keeping it in Downloads.
