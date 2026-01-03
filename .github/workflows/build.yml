@@ -28,8 +28,9 @@ jobs:
     - name: Run Tests
       # We set PYTHONPATH to . so the 'tests' folder can see the 'passguard' package
       run: |
-        set PYTHONPATH=.
-        pytest tests/
+        run: |
+        $env:PYTHONPATH = "$PWD"
+        pytest tests
 
     - name: Run PyInstaller
       run: |

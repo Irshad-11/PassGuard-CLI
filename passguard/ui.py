@@ -34,10 +34,23 @@ def draw_table(headers, rows, widths):
     print("└" + "┴".join("─" * w for w in widths) + "┘")
 
 def loading_anim(msg="Processing"):
-    frames = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
+    frames = ["⠋","⠙","⠹","⠸","⠼","⠴","⠦","⠧","⠇","⠏"]
     for _ in range(10):
-        for frame in frames:
-            sys.stdout.write(f"\r{Fore.CYAN}{frame} {msg}...")
+        for f in frames:
+            sys.stdout.write(f"\r{Fore.CYAN}{f} {msg}...")
             sys.stdout.flush()
             time.sleep(0.01)
     sys.stdout.write("\r" + " " * 40 + "\r")
+    
+
+def version(rem_time):
+    time_col = Fore.LIGHTYELLOW_EX if rem_time > 60 else Fore.RED
+    print(Fore.LIGHTYELLOW_EX + r"""  ┓ ┏┓ ┏┓
+┓┏┃ ┃┫ ┏┛
+┗┛┻•┗┛•┗━
+         """)
+    
+# ANSI code from:
+# https://patorjk.com/software/taag/#p=testall&f=Graffiti&t=v1.0.2&x=none&v=4&h=4&w=80&we=false
+
+    

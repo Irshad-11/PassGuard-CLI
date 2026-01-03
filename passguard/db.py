@@ -1,24 +1,25 @@
 import sqlite3
 import os
 import json
-from passguard.config import CONFIG_FILE, DB_NAME, Fore
 from datetime import datetime
+from passguard.config import CONFIG_FILE
+
 
 def get_db():
     if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, "r") as f:
-            cfg = json.load(f)
-        conn = sqlite3.connect(cfg["db"])
-        return conn, cfg
+        cfg = json.load(open(CONFIG_FILE))
+        return sqlite3.connect(cfg["db"]), cfg
     return None, None
 
+
 def log(conn, action, status):
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    conn.execute("INSERT INTO logs VALUES(?,?,?)", (action, status, now))
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    conn.execute("INSERT INTO logs VALUES(?,?,?)", (action, status, ts))
     conn.commit()
 
-def init_db(db_path):
-    conn = sqlite3.connect(db_path)
+
+def init_db(path):
+    conn = sqlite3.connect(path)
     conn.executescript("""
         CREATE TABLE IF NOT EXISTS items(id INTEGER PRIMARY KEY, type TEXT, service TEXT, username TEXT, secret TEXT);
         CREATE TABLE IF NOT EXISTS logs(action TEXT, status TEXT, ts TEXT);
