@@ -11,7 +11,7 @@
 
 ## What is PassGuard-CLI?
 
-PassGuard-CLI is a professional, modular, terminal-based password manager designed for developers who value speed and local security. It allows you to store and manage Account credentials, API keys, SSH entries, and Personal notes in a secure, SQLite-backed vault.
+PassGuard-CLI is a professional, modular, terminal-based password manager designed for developers who value speed and local security. It allows you to store and manage Account credentials, API keys, SSH entries, and Personal notes in a secure, SQLite-backed vault. It offers a UNIX-style CLI and a TUI, along with features like rate-limited logins and audit logs.
 
 ## How it Works
 
