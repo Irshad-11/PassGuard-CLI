@@ -149,7 +149,7 @@ pass
 ## 👨‍💻 Credits & Developer Info
 
 * **Lead Developer**: **Irshad Hossain**, Software Engineering Student at UFTB.
-* **Project Purpose**: Developed as a professional-grade security tool for the 1st-year Software Engineering curriculum.
+* **Project Purpose**: Developed a professional-grade security tool for the 1st-year Software Engineering Academic Project.
 * **Contact**: [GitHub/Irshad-11](https://www.google.com/search?q=https://github.com/Irshad-11)
 
 ---
