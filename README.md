@@ -3,7 +3,7 @@
 
 <h1 align="center">PassGuard-CLI <img src="https://img.shields.io/badge/Version-1.0.0-blueviolet" alt="Version Badge"></h1>
 <p align="center">
-<img src="https://img.shields.io/badge/UNIX%20style-437057" alt="UNIX Style">
+<img src="https://img.shields.io/badge/Machine%20Learning-437057" alt="UNIX Style">
 <img src="https://img.shields.io/badge/Scriptable%20CLI-1C352D" alt="Scriptable CLI">
 <img src="https://img.shields.io/badge/Interactive%20TUI-064232" alt="Interactive TUI">
 <img src="https://img.shields.io/badge/Security-SHA--256-red" alt="Security Badge">
