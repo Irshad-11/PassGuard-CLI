@@ -37,7 +37,7 @@ PassGuard-CLI is built with a modern, modular Python stack to ensure performance
 * **DevOps**: Pytest (Automated testing) and GitHub Actions (CI/CD Build Pipeline).
 
 > [!TIP]
-> **Architecture Info**: For detailed logic flows, DB schemas, and ML explanation, please refer to our **[Documentation Section](https://github.com/Irshad-11/PassGuard-CLI/docs/ARCHITECTURE.md)**.
+> **Architecture Info**: For detailed logic flows, DB schemas, and ML explanation, please refer to our **[Documentation Section](https://github.com/Irshad-11/PassGuard-CLI/tree/main/docs/ARCHITECTURE.md)**.
 
 ---
 
@@ -108,9 +108,9 @@ passguard
 
 ## 📚 Detailed Documentation
 
-* **[Setup & Troubleshooting](https://github.com/Irshad-11/PassGuard-CLI/docs/SETUP.md)**
-* **[Full Command Reference](https://github.com/Irshad-11/PassGuard-CLI/docs/COMMANDS.md)**
-* **[Security & Entropy Math](https://github.com/Irshad-11/PassGuard-CLI/docs/SECURITY.md)**
+* **[Setup & Troubleshooting](https://github.com/Irshad-11/PassGuard-CLI/tree/main/docs/SETUP.md)**
+* **[Full Command Reference](https://github.com/Irshad-11/PassGuard-CLI/tree/main/docs/COMMANDS.md)**
+* **[Security & Entropy Math](https://github.com/Irshad-11/PassGuard-CLI/tree/main/docs/SECURITY.md)**
 
 ---
 
