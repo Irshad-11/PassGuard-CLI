@@ -37,7 +37,7 @@ PassGuard-CLI is built with a modern, modular Python stack to ensure performance
 * **DevOps**: Pytest (Automated testing) and GitHub Actions (CI/CD Build Pipeline).
 
 > [!TIP]
-> **Architecture Info**: For detailed logic flows, DB schemas, and ML explanation, please refer to our **[Documentation Section](https://www.google.com/search?q=docs/ARCHITECTURE.md)**.
+> **Architecture Info**: For detailed logic flows, DB schemas, and ML explanation, please refer to our **[Documentation Section](https://github.com/Irshad-11/PassGuard-CLI/docs/ARCHITECTURE.md)**.
 
 ---
 
@@ -45,7 +45,7 @@ PassGuard-CLI is built with a modern, modular Python stack to ensure performance
 
 PassGuard-CLI is distributed as a **single standalone executable**. You do not need to install Python or any dependencies to run it.
 
-1. Go to the **[Releases](https://www.google.com/search?q=https://github.com/Irshad-11/PassGuard-CLI/releases)** page.
+1. Go to the **[Releases](https://github.com/Irshad-11/PassGuard-CLI/releases)** page.
 2. Download the `passguard.exe` for your operating system.
 3. (Optional) Add the folder containing `passguard.exe` to your System PATH to run it from any terminal.
 
@@ -108,9 +108,9 @@ passguard
 
 ## 📚 Detailed Documentation
 
-* **[Setup & Troubleshooting](https://www.google.com/search?q=docs/SETUP.md)**
-* **[Full Command Reference](https://www.google.com/search?q=docs/COMMANDS.md)**
-* **[Security & Entropy Math](https://www.google.com/search?q=docs/SECURITY.md)**
+* **[Setup & Troubleshooting](https://github.com/Irshad-11/PassGuard-CLI/docs/SETUP.md)**
+* **[Full Command Reference](https://github.com/Irshad-11/PassGuard-CLI/docs/COMMANDS.md)**
+* **[Security & Entropy Math](https://github.com/Irshad-11/PassGuard-CLI/docs/SECURITY.md)**
 
 ---
 
