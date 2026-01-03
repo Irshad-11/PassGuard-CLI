@@ -1,12 +1,12 @@
 
-<img src="[https://raw.githubusercontent.com/Irshad-11/Documents/refs/heads/main/passguardCLI.png](https://raw.githubusercontent.com/Irshad-11/Documents/refs/heads/main/passguardCLI.png)" alt="Banner">
+<img src="https://raw.githubusercontent.com/Irshad-11/Documents/refs/heads/main/passguardCLI.png" alt="Banner">
 
-<h1 align="center">PassGuard-CLI <img src="[https://img.shields.io/badge/Version-1.0.0-blueviolet](https://www.google.com/search?q=https://img.shields.io/badge/Version-1.0.0-blueviolet)" alt="Version Badge"></h1>
+<h1 align="center">PassGuard-CLI <img src="https://img.shields.io/badge/Version-1.0.0-blueviolet" alt="Version Badge"></h1>
 <p align="center">
-<img src="[https://img.shields.io/badge/UNIX%20style-437057](https://img.shields.io/badge/UNIX%20style-437057)" alt="UNIX Style">
-<img src="[https://img.shields.io/badge/Scriptable%20CLI-1C352D](https://img.shields.io/badge/Scriptable%20CLI-1C352D)" alt="Scriptable CLI">
-<img src="[https://img.shields.io/badge/Interactive%20TUI-064232](https://img.shields.io/badge/Interactive%20TUI-064232)" alt="Interactive TUI">
-<img src="[https://img.shields.io/badge/Security-SHA--256-red](https://www.google.com/search?q=https://img.shields.io/badge/Security-SHA--256-red)" alt="Security Badge">
+<img src="https://img.shields.io/badge/UNIX%20style-437057" alt="UNIX Style">
+<img src="https://img.shields.io/badge/Scriptable%20CLI-1C352D" alt="Scriptable CLI">
+<img src="https://img.shields.io/badge/Interactive%20TUI-064232" alt="Interactive TUI">
+<img src="https://img.shields.io/badge/Security-SHA--256-red" alt="Security Badge">
 </p>
 
 ## What is PassGuard-CLI?
